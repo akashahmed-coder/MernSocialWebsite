@@ -28,7 +28,7 @@ app.use("/api/users",userRouters)
 app.use("/api/auth",authRouters)
 app.use("/api/posts",postRouters)
 
-
-app.listen(5000,()=>{
+const PORT = process.env.PORT || 5000
+app.listen(PORT,()=>{
     console.log('server is running successfull')
 })
