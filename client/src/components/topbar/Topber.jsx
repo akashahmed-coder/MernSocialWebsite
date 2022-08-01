@@ -1,5 +1,6 @@
 import React from 'react'
-import SearchIcon from '@mui/icons-material/Search';
+import {Person, Search, Chat , Notifications} from '@material-ui/icons'
+import './topbar.css'
 
 export default function Topber() {
   return (
@@ -9,11 +10,35 @@ export default function Topber() {
         </div>
         <div className='topbarCenter'>
             <div className='searchInput'>
-               <SearchIcon/>
+               <Search/>
                <input placeholder='Search for friend, post, video'/>
             </div>
         </div>
-        <div className='topbarRight'></div>          
+        <div className='topbarRight'>
+
+         <div className='topbarLinks'>
+          <span className='topbarLink'>Home Page</span>
+          <span className='topbarLink'>timeline</span>
+         </div>
+
+         <div className="topbarIcons">
+          <div className="topbarIconItem">
+            <Person/>
+            <span className="topbarIconBadge">1</span>
+          </div>
+
+          <div className="topbarIconItem">
+            <Chat/>
+            <span className="topbarIconBadge">1</span>
+          </div>
+
+          <div className="topbarIconItem">
+            <Notifications/>
+            <span className="topbarIconBadge">1</span>
+          </div>
+
+         </div>
+          </div>          
     </div>
   )
 }
