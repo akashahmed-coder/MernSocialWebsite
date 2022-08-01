@@ -1,7 +1,8 @@
+import Home from "./components/pages/home/Home";
 function App() {
   return (
     <div >
-      hellow
+      <Home/>
     </div>
   );
 }
