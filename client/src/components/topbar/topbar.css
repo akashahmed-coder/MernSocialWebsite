@@ -3,4 +3,79 @@
     width: 100%;
     background-color: #1877f2;
     display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.topbarLeft{
+    flex: 3;
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+}
+.topbarCenter{
+    flex: 5;
+}
+.searchbar{
+    width: 90%;
+    height: 30px;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.searchbar input{
+    border: none;
+    width: 70%;
+
+}
+.searchbar input:focus{
+    outline: none;
+}
+.topbarRight{
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.topbarLink{
+    margin-left: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.topbarIcons{
+    display: flex;
+}
+.topbarIconItem{
+    position: relative;
+    cursor: pointer;
+    margin-right: 15px;
+
+}
+.topbarIconBadge{
+    width: 15px;
+    height: 15px;
+    font-size: 12px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: -5;
+    right: -5;
+    padding-left: 3px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.topbarImg{
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
 }

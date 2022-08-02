@@ -9,16 +9,16 @@ export default function Topber() {
             <span className='logo'>Lamasocia</span>
         </div>
         <div className='topbarCenter'>
-            <div className='searchInput'>
-               <Search/>
+            <div className='searchbar'>
+               <Search className='searchIcon'/>
                <input placeholder='Search for friend, post, video'/>
             </div>
         </div>
         <div className='topbarRight'>
 
          <div className='topbarLinks'>
-          <span className='topbarLink'>Home Page</span>
-          <span className='topbarLink'>timeline</span>
+          <span className='topbarLink'>Homepage</span>
+          <span className='topbarLink'>Timeline</span>
          </div>
 
          <div className="topbarIcons">
@@ -38,6 +38,7 @@ export default function Topber() {
           </div>
 
          </div>
+         <img src='assets/profile/2.webp' alt='' className='topbarImg'/>
           </div>          
     </div>
   )
