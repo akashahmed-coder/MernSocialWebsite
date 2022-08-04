@@ -52,12 +52,13 @@
 }
 .topbarIcons{
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 .topbarIconItem{
     position: relative;
     cursor: pointer;
     margin-right: 15px;
-
 }
 .topbarIconBadge{
     width: 15px;
@@ -66,12 +67,11 @@
     background-color: red;
     border-radius: 50%;
     position: absolute;
-    top: -5;
-    right: -5;
-    padding-left: 3px;
-    /* display: flex;
+    top: -5px;
+    right: -5px;
+    display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
 }
 .topbarImg{
     width: 32px;
