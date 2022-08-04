@@ -37,3 +37,10 @@ export const users = [
 
 ]
 
+export const post = [
+    {
+        desc:"Hard Working",
+        photo:"assets/porfile/4.jpg"
+    }
+]
+
