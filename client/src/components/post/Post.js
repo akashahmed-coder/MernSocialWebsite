@@ -7,7 +7,7 @@ export default function Post({post}) {
     const [isliked,setIsLiked] = useState(false)
 
     const handleLike = () => {
-        setLike(isliked?like+1:like-1)
+        setLike(isliked?like-1:like+1)
         setIsLiked(!isliked)
     }
   return (
