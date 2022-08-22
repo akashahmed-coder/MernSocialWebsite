@@ -80,7 +80,7 @@ const ProfileRightBar = () => {
   return (
     <div className='rightbar'>
         <div className='rightbarWrapper'>
-            <ProfileRightBar/>
+            {profile?<ProfileRightBar/>:<HomeRigthBar/>}
         </div>
     </div>
   )
