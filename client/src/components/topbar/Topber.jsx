@@ -38,7 +38,7 @@ export default function Topber() {
           </div>
 
          </div>
-         <img src='assets/profile/2.webp' alt='' className='topbarImg'/>
+         <img src='http://localhost:3000/assets/profile/2.webp' alt='' className='topbarImg'/>
           </div>          
     </div>
   )

@@ -1,37 +1,37 @@
 export const users = [
  {
     id:1,
-    profilePicture:"assets/profile/akashahmed.jpg",
+    profilePicture:"profile/akashahmed.jpg",
     username:'Akash Ahmed'
  },
  {
     id:2,
-    profilePicture:"assets/profile/xony.jpg",
+    profilePicture:"profile/xony.jpg",
     username:'Ahmed Xony'
  },
  {
     id:3,
-    profilePicture:"assets/profile/sobuj.jpg",
+    profilePicture:"profile/sobuj.jpg",
     username:'Ahmed Sobuj '
  },
  {
     id:4,
-    profilePicture:"assets/profile/rizvi.jpg",
+    profilePicture:"profile/rizvi.jpg",
     username:'Rizvi Ahmed'
  },
  {
     id:5,
-    profilePicture:"assets/profile/sahalom.jpg",
+    profilePicture:"profile/sahalom.jpg",
     username:'Niloy Ahmed Sahalom'
  },
  {
     id:6,
-    profilePicture:"assets/profile/tawsif.jpg",
+    profilePicture:"profile/tawsif.jpg",
     username:'Tawsif Ahmed Sunny'
  },
  {
     id:7,
-    profilePicture:"assets/profile/rasu.jpg",
+    profilePicture:"profile/rasu.jpg",
     username:'Ariyan Ahmed Rasel'
  }
 
@@ -40,7 +40,7 @@ export const users = [
 export const posts = [
     {
         id:1,
-        photo:"assets/profile/akashpost.jpg",
+        photo:"profile/akashpost.jpg",
         date: "12 mins ago",
         userId: 1,
         like: 32,
@@ -49,7 +49,7 @@ export const posts = [
     {
       id:2,
       desc:"কিছু বন্ধু সুধু বন্ধু নয় জীবন হয় green model twon 🤘🤘✌️",
-      photo:"assets/profile/xonypost.jpg",
+      photo:"profile/xonypost.jpg",
       date: "14 mins ago",
       userId: 2,
       like: 14,
@@ -58,7 +58,7 @@ export const posts = [
    {
       id:3,
       desc:"মাঝে মাঝে মনে হয়,,প্রকৃতির নিয়ম ভেঙ্গে তোমাকে আমার করে নেই🙂🥺",
-      photo:"assets/profile/sobujpost.jpg",
+      photo:"profile/sobujpost.jpg",
       date: "50 mins ago",
       userId: 3,
       like: 89,
@@ -66,7 +66,7 @@ export const posts = [
    },
 {
    id:4,
-   photo:"assets/profile/rizvi.jpg",
+   photo:"profile/rizvi.jpg",
    date: "34 mins ago",
    userId: 4,
    like: 23,
@@ -75,7 +75,7 @@ export const posts = [
 {
    id:5,
    desc:"Happy birthday Bazan onek onek duya o vlo basa tmr jonno asha kore Allah jeno tmr moner sob asha poron koren happy birthday dst Rizve Ahmmed .... 🤣 r hey biya ta aktu tara tare kro karon amgo akta to abr probasi hoiya jaitase poladar😂 onk icchaJawar age akta bhundor biya khaiya jaibo 😋😋😋😋",
-   photo:"assets/profile/sahalompost.jpg",
+   photo:"profile/sahalompost.jpg",
    date: "1 hour ago",
    userId: 5,
    like: 98,
@@ -84,7 +84,7 @@ export const posts = [
 {
    id:6,
    desc:"- A person that truly loves you will never let you go. no matter how hard situation is🖤😉❤",
-   photo:"assets/profile/tawsifpost.jpg",
+   photo:"profile/tawsifpost.jpg",
    date: "13 hours ago",
    userId: 6,
    like: 23,
@@ -93,7 +93,7 @@ export const posts = [
 {
    id:7,
    desc:"Beauty begins the moment you decided to be yourself.",
-   photo:"assets/profile/rasupost.jpg",
+   photo:"profile/rasupost.jpg",
    date: "17 mins ago",
    userId: 7,
    like: 53,

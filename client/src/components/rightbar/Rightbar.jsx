@@ -4,7 +4,7 @@ import './rightbar.css'
 import {users} from '../../dummyData'
 
 export default function Rightbar({profile}) {
- 
+ const PF = process.env.REACT_APP_PUBLIC_FOLDER
 const HomeRigthBar = () => {
   return(
     <>
@@ -48,27 +48,27 @@ const ProfileRightBar = () => {
        <h4 className='rightbarTitle'>User Friends</h4>
        <div className='rightbarFollowings'>
         <div className='rightbarFollowing'>
-            <img className='rightbarFollowingImg' src='assets/profile/sobuj.jpg' alt=''/>
+            <img className='rightbarFollowingImg' src={`${PF}profile/sobuj.jpg`} alt=''/>
             <span className='rightBarFollowingName'>Ahmed Sobuj</span>
         </div>
         <div className='rightbarFollowing'>
-            <img className='rightbarFollowingImg' src='assets/profile/xony.jpg' alt=''/>
+            <img className='rightbarFollowingImg' src={`${PF}profile/xony.jpg`} alt=''/>
             <span className='rightBarFollowingName'>Ahmed Sobuj</span>
         </div>
         <div className='rightbarFollowing'>
-            <img className='rightbarFollowingImg' src='assets/profile/rizvi.jpg' alt=''/>
+            <img className='rightbarFollowingImg' src={`${PF}profile/rizvi.jpg`} alt=''/>
             <span className='rightBarFollowingName'>Ahmed Sobuj</span>
         </div>
         <div className='rightbarFollowing'>
-            <img className='rightbarFollowingImg' src='assets/profile/sahalom.jpg' alt=''/>
+            <img className='rightbarFollowingImg' src={`${PF}profile/sahalom.jpg`} alt=''/>
             <span className='rightBarFollowingName'>Ahmed Sobuj</span>
         </div>
         <div className='rightbarFollowing'>
-            <img className='rightbarFollowingImg' src='assets/profile/rasu.jpg' alt=''/>
+            <img className='rightbarFollowingImg' src={`${PF}profile/rasu.jpg`} alt=''/>
             <span className='rightBarFollowingName'>Ahmed Sobuj</span>
         </div>
         <div className='rightbarFollowing'>
-            <img className='rightbarFollowingImg' src='assets/profile/tawsif.jpg' alt=''/>
+            <img className='rightbarFollowingImg' src={`${PF}profile/tawsif.jpg`} alt=''/>
             <span className='rightBarFollowingName'>Ahmed Sobuj</span>
         </div>
 

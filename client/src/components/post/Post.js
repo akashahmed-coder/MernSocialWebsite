@@ -10,13 +10,15 @@ export default function Post({post}) {
         setLike(isliked?like-1:like+1)
         setIsLiked(!isliked)
     }
+    const UF = users.filter(u =>u.id === post.id)[0].profilePicture
+    const PF = process.env.REACT_APP_PUBLIC_FOLDER
   return (
     <div className='post'>
         <div className='postWrapper'>
             <div className='postTop'>
                 <div className='postTopRight'>
 
-                <img src={users.filter(u =>u.id === post.id)[0].profilePicture} alt='' className='postProfileImg'/>
+                <img src={PF+UF} alt='' className='postProfileImg'/>
                    <span className='postUsername'>{users.filter(u =>u.id === post.id)[0].username}</span>
                    <span className='postDate'>{post.date}</span>
                 </div>
@@ -27,7 +29,7 @@ export default function Post({post}) {
             </div>
             <div className='postCenter'>
                 <span className='PostText'>{post?.desc}</span>
-                <img src={post.photo} alt='' className='postImg'/>
+                <img src={PF+post.photo} alt='' className='postImg'/>
             </div>
             <div className='postBottom'>
                 <div className='postBottomLeft'>
