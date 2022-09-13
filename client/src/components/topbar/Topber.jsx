@@ -1,6 +1,7 @@
 import React from 'react'
 import {Person, Search, Chat , Notifications} from '@material-ui/icons'
 import './topbar.css'
+import { Link } from 'react-router-dom'
 
 export default function Topber() {
   return (
@@ -17,8 +18,8 @@ export default function Topber() {
         <div className='topbarRight'>
 
          <div className='topbarLinks'>
-          <span className='topbarLink'>Homepage</span>
-          <span className='topbarLink'>Timeline</span>
+          <Link to="/"><span className='topbarLink'>Homepage</span></Link>
+          <Link to="/profile/akashahmed"><span className='topbarLink'>Timeline</span></Link>
          </div>
 
          <div className="topbarIcons">
@@ -38,7 +39,7 @@ export default function Topber() {
           </div>
 
          </div>
-         <img src='http://localhost:3000/assets/profile/2.webp' alt='' className='topbarImg'/>
+         <Link to="/login"><img src='http://localhost:3000/assets/profile/2.webp' alt='' className='topbarImg'/></Link>
           </div>          
     </div>
   )

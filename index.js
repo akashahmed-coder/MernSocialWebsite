@@ -29,6 +29,12 @@ app.use("/api/auth",authRouters)
 app.use("/api/posts",postRouters)
 
 const PORT = process.env.PORT || 5000
+if(process.env.NODE_ENV === 'production'){
+    app.use(express.static('client/build'))
+    app.get("*",(req,res)=>{
+        res.sendFile(path.join(__dirname,'client','build','index.html'))
+    })
+}
 app.listen(PORT,()=>{
     console.log('server is running successfull')
 })
