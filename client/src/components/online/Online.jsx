@@ -2,7 +2,7 @@ import './online.css'
 import React from 'react'
 
 export default function Online({user}) {
-  const PF = process.env.REACT_APP_PUBLIC_FOLDER
+  const PF = "http://localhost:3000/assets/"
   return (
             <li className='rightbarFriend'>
                 <div className='rightbarProfileImgContainer'>
