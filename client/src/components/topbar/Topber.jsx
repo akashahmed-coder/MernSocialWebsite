@@ -1,5 +1,5 @@
 import React from 'react'
-import {Person, Search, Chat , Notifications} from '@material-ui/icons'
+import {Person, Search, Chat , Notifications} from '@mui/icons-material'
 import './topbar.css'
 import { Link } from 'react-router-dom'
 
