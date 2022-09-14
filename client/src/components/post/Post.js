@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 import './post.css'
 import { MoreVert } from '@mui/icons-material'
+import likes from '../img/likes.png'
+import heart from '../img/heart.png'
+
 import { users } from '../../dummyData'
 export default function Post({post}) {
     const [like,setLike] = useState(post.like)
@@ -11,14 +14,14 @@ export default function Post({post}) {
         setIsLiked(!isliked)
     }
     const UF = users.filter(u =>u.id === post.id)[0].profilePicture
-    const PF = "http://localhost:3000/assets/"
+    // const PF = "http://localhost:3000/assets/"
   return (
     <div className='post'>
         <div className='postWrapper'>
             <div className='postTop'>
                 <div className='postTopRight'>
 
-                <img src={PF+UF} alt='' className='postProfileImg'/>
+                <img src={UF} alt='' className='postProfileImg'/>
                    <span className='postUsername'>{users.filter(u =>u.id === post.id)[0].username}</span>
                    <span className='postDate'>{post.date}</span>
                 </div>
@@ -29,12 +32,12 @@ export default function Post({post}) {
             </div>
             <div className='postCenter'>
                 <span className='PostText'>{post?.desc}</span>
-                <img src={PF+post.photo} alt='' className='postImg'/>
+                <img src={post.photo} alt='' className='postImg'/>
             </div>
             <div className='postBottom'>
                 <div className='postBottomLeft'>
-                    <img className='likeIcon' onClick={handleLike} src={`${PF}likes.png`} alt=''/>
-                    <img className='likeIcon' onClick={handleLike} src={`${PF}heart.png`} alt=''/>
+                    <img className='likeIcon' onClick={handleLike} src={likes} alt=''/>
+                    <img className='likeIcon' onClick={handleLike} src={heart} alt=''/>
                     <span className='postLikeCounter'>{like} people like it</span>
                 </div>
                 <div className='PostBottomRight'>

@@ -4,7 +4,7 @@ import './rightbar.css'
 import {users} from '../../dummyData'
 
 export default function Rightbar({profile}) {
- const PF = "http://localhost:3000/assets/"
+//  const PF = process.env.REACT_APP_PUBLIC_FOLDER
 const HomeRigthBar = () => {
   return(
     <>
@@ -48,27 +48,27 @@ const ProfileRightBar = () => {
        <h4 className='rightbarTitle'>User Friends</h4>
        <div className='rightbarFollowings'>
         <div className='rightbarFollowing'>
-            <img className='rightbarFollowingImg' src={`${PF}profile/sobuj.jpg`} alt=''/>
+            <img className='rightbarFollowingImg' src={`https://res.cloudinary.com/build-it/image/upload/v1656935164/ecommers/mfxjhvspuxgpmsxmtp8c.jpg`} alt=''/>
             <span className='rightBarFollowingName'>Ahmed Sobuj</span>
         </div>
         <div className='rightbarFollowing'>
-            <img className='rightbarFollowingImg' src={`${PF}profile/xony.jpg`} alt=''/>
+            <img className='rightbarFollowingImg' src={`https://res.cloudinary.com/build-it/image/upload/v1656944567/ecommers/rcltvrsgsar5m3cy5c5g.jpg`} alt=''/>
             <span className='rightBarFollowingName'>Ahmed Sobuj</span>
         </div>
         <div className='rightbarFollowing'>
-            <img className='rightbarFollowingImg' src={`${PF}profile/rizvi.jpg`} alt=''/>
+            <img className='rightbarFollowingImg' src={`https://res.cloudinary.com/build-it/image/upload/v1653891827/ecommers/ggqnqcarlcp18tgmbs8z.jpg`} alt=''/>
             <span className='rightBarFollowingName'>Ahmed Sobuj</span>
         </div>
         <div className='rightbarFollowing'>
-            <img className='rightbarFollowingImg' src={`${PF}profile/sahalom.jpg`} alt=''/>
+            <img className='rightbarFollowingImg' src={`https://res.cloudinary.com/build-it/image/upload/v1643450078/ecommers/cprldpb9sdes92fovoei.jpg`} alt=''/>
             <span className='rightBarFollowingName'>Ahmed Sobuj</span>
         </div>
         <div className='rightbarFollowing'>
-            <img className='rightbarFollowingImg' src={`${PF}profile/rasu.jpg`} alt=''/>
+            <img className='rightbarFollowingImg' src={`https://res.cloudinary.com/build-it/image/upload/v1643449975/ecommers/tdrrtxtleqspyye46x0s.webp`} alt=''/>
             <span className='rightBarFollowingName'>Ahmed Sobuj</span>
         </div>
         <div className='rightbarFollowing'>
-            <img className='rightbarFollowingImg' src={`${PF}profile/tawsif.jpg`} alt=''/>
+            <img className='rightbarFollowingImg' src={`https://res.cloudinary.com/build-it/image/upload/v1656934802/ecommers/tle8mhr7ow9vugfx72ia.webp`} alt=''/>
             <span className='rightBarFollowingName'>Ahmed Sobuj</span>
         </div>
 
