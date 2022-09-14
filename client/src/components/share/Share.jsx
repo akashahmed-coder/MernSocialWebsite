@@ -3,7 +3,7 @@ import './share.css'
 import { PermMedia, Label ,Room ,EmojiEmotions } from "@mui/icons-material"
 
 export default function Share() {
-    const PF = process.env.REACT_APP_PUBLIC_FOLDER
+    const PF = "http://localhost:3000/assets/"
 
   return (
     <div className='share'>

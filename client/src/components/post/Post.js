@@ -11,7 +11,7 @@ export default function Post({post}) {
         setIsLiked(!isliked)
     }
     const UF = users.filter(u =>u.id === post.id)[0].profilePicture
-    const PF = process.env.REACT_APP_PUBLIC_FOLDER
+    const PF = "http://localhost:3000/assets/"
   return (
     <div className='post'>
         <div className='postWrapper'>
