@@ -1,6 +1,7 @@
 import React from 'react'
 import {Person, Search, Chat , Notifications} from '@mui/icons-material'
 import './topbar.css'
+import { users } from '../../dummyData'
 import { Link } from 'react-router-dom'
 
 export default function Topber() {
@@ -39,7 +40,7 @@ export default function Topber() {
           </div>
 
          </div>
-         <Link to="/login"><img src='https://res.cloudinary.com/build-it/image/upload/v1656935164/ecommers/mfxjhvspuxgpmsxmtp8c.jpg' alt='' className='topbarImg'/></Link>
+         <Link to="/login"><img src={users[6].profilePicture} alt='' className='topbarImg'/></Link>
           </div>          
     </div>
   )

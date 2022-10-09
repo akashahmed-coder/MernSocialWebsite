@@ -1,6 +1,7 @@
 import React from 'react'
 import './share.css'
 import { PermMedia, Label ,Room ,EmojiEmotions } from "@mui/icons-material"
+import { users } from '../../dummyData'
 
 export default function Share() {
     // const PF = process.env.REACT_APP_PUBLIC_FOLDER
@@ -9,7 +10,7 @@ export default function Share() {
     <div className='share'>
         <div className='shareWrapper'>
             <div className='shareTop'>
-                  <img src="https://res.cloudinary.com/build-it/image/upload/v1658140701/ecommers/hv5q1majs8zdeerdanfp.webp" alt='' className='shareProfileImg'/>
+                  <img src={users[6].profilePicture} alt='' className='shareProfileImg'/>
                   <input placeholder="what's your mind Akash" className='shareInput'/>
             </div>
             <hr className='shareHr'/>

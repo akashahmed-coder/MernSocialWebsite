@@ -101,40 +101,48 @@
 // },
 // ]
 
+import post1 from './components/img/post1.webp'
+import post2 from './components/img/post2.webp'
+import post3 from './components/img/post3.jpg'
+import post4 from './components/img/post4.jpg'
+import post5 from './components/img/post5.webp'
+import post6 from './components/img/post6.jpg'
+import post7 from './components/img/post7.jpg'
+
 export const users = [
    {
       id:1,
-      profilePicture:"https://res.cloudinary.com/build-it/image/upload/v1656935164/ecommers/mfxjhvspuxgpmsxmtp8c.jpg",
+      profilePicture:post1,
       username:'Akash Ahmed'
    },
    {
       id:2,
-      profilePicture:"https://res.cloudinary.com/build-it/image/upload/v1656944567/ecommers/rcltvrsgsar5m3cy5c5g.jpg",
+      profilePicture:post2,
       username:'Ahmed Xony'
    },
    {
       id:3,
-      profilePicture:"https://res.cloudinary.com/build-it/image/upload/v1653891827/ecommers/ggqnqcarlcp18tgmbs8z.jpg",
+      profilePicture:post3,
       username:'Ahmed Sobuj '
    },
    {
       id:4,
-      profilePicture:"https://res.cloudinary.com/build-it/image/upload/v1643450078/ecommers/cprldpb9sdes92fovoei.jpg",
+      profilePicture:post4,
       username:'Rizvi Ahmed'
    },
    {
       id:5,
-      profilePicture:"https://res.cloudinary.com/build-it/image/upload/v1643449975/ecommers/tdrrtxtleqspyye46x0s.webp",
+      profilePicture:post5,
       username:'Niloy Ahmed Sahalom'
    },
    {
       id:6,
-      profilePicture:"https://res.cloudinary.com/build-it/image/upload/v1656934802/ecommers/tle8mhr7ow9vugfx72ia.webp",
+      profilePicture:post6,
       username:'Tawsif Ahmed Sunny'
    },
    {
       id:7,
-      profilePicture:"https://res.cloudinary.com/build-it/image/upload/v1654164538/ecommers-2/ezafrniz1tzmo0ijbb1p.jpg",
+      profilePicture:post7,
       username:'Ariyan Ahmed Rasel'
    }
   
@@ -143,7 +151,7 @@ export const users = [
   export const posts = [
       {
           id:1,
-          photo:"https://res.cloudinary.com/build-it/image/upload/v1654164426/ecommers-2/l7e0fwds4iobcafra0cc.webp",
+          photo:post1,
           date: "12 mins ago",
           userId: 1,
           like: 32,
@@ -152,7 +160,7 @@ export const users = [
       {
         id:2,
         desc:"",
-        photo:"https://res.cloudinary.com/build-it/image/upload/v1654164157/ecommers-2/qrcq63ranvvzsmlgedmk.jpg",
+        photo:post2,
         date: "14 mins ago",
         userId: 2,
         like: 14,
@@ -161,7 +169,7 @@ export const users = [
      {
         id:3,
         desc:"মাঝে মাঝে মনে হয়,,প্রকৃতির নিয়ম ভেঙ্গে তোমাকে আমার করে নেই🙂🥺",
-        photo:"https://res.cloudinary.com/build-it/image/upload/v1643449975/ecommers/tdrrtxtleqspyye46x0s.webp",
+        photo:post3,
         date: "50 mins ago",
         userId: 3,
         like: 89,
@@ -169,7 +177,7 @@ export const users = [
      },
   {
      id:4,
-     photo:"https://res.cloudinary.com/build-it/image/upload/v1656935164/ecommers/mfxjhvspuxgpmsxmtp8c.jpg",
+     photo:post4,
      date: "34 mins ago",
      userId: 4,
      like: 23,
@@ -178,7 +186,7 @@ export const users = [
   {
      id:5,
      desc:"Happy birthday Bazan onek onek duya o vlo basa tmr jonno asha kore Allah jeno tmr moner sob asha poron koren happy birthday dst Rizve Ahmmed .... 🤣 r hey biya ta aktu tara tare kro karon amgo akta to abr probasi hoiya jaitase poladar😂 onk icchaJawar age akta bhundor biya khaiya jaibo 😋😋😋😋",
-     photo:"https://res.cloudinary.com/build-it/image/upload/v1656944567/ecommers/rcltvrsgsar5m3cy5c5g.jpg",
+     photo:post5,
      date: "1 hour ago",
      userId: 5,
      like: 98,
@@ -187,7 +195,7 @@ export const users = [
   {
      id:6,
      desc:"- A person that truly loves you will never let you go. no matter how hard situation is🖤😉❤",
-     photo:"https://res.cloudinary.com/build-it/image/upload/v1656934802/ecommers/tle8mhr7ow9vugfx72ia.webp",
+     photo:post6,
      date: "13 hours ago",
      userId: 6,
      like: 23,
@@ -196,7 +204,7 @@ export const users = [
   {
      id:7,
      desc:"Beauty begins the moment you decided to be yourself.",
-     photo:"https://res.cloudinary.com/build-it/image/upload/v1654164538/ecommers-2/ezafrniz1tzmo0ijbb1p.jpg",
+     photo:post7,
      date: "17 mins ago",
      userId: 7,
      like: 53,
