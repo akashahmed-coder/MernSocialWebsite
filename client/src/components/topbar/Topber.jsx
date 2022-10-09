@@ -39,7 +39,7 @@ export default function Topber() {
           </div>
 
          </div>
-         <Link to="/login"><img src='http://localhost:3000/assets/profile/2.webp' alt='' className='topbarImg'/></Link>
+         <Link to="/login"><img src='https://res.cloudinary.com/build-it/image/upload/v1656935164/ecommers/mfxjhvspuxgpmsxmtp8c.jpg' alt='' className='topbarImg'/></Link>
           </div>          
     </div>
   )

@@ -9,7 +9,7 @@ export default function Share() {
     <div className='share'>
         <div className='shareWrapper'>
             <div className='shareTop'>
-                  <img src={`https://res.cloudinary.com/build-it/image/upload/v1658140701/ecommers/hv5q1majs8zdeerdanfp.webp`} alt='' className='shareProfileImg'/>
+                  <img src="https://res.cloudinary.com/build-it/image/upload/v1658140701/ecommers/hv5q1majs8zdeerdanfp.webp" alt='' className='shareProfileImg'/>
                   <input placeholder="what's your mind Akash" className='shareInput'/>
             </div>
             <hr className='shareHr'/>
