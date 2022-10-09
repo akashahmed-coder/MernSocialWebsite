@@ -49,27 +49,27 @@ const ProfileRightBar = () => {
        <h4 className='rightbarTitle'>User Friends</h4>
        <div className='rightbarFollowings'>
         <div className='rightbarFollowing'>
-            <img className='rightbarFollowingImg' src="https://res.cloudinary.com/build-it/image/upload/v1656935164/ecommers/mfxjhvspuxgpmsxmtp8c.jpg" alt=''/>
+            <img className='rightbarFollowingImg' src={users[0].profilePicture} alt=''/>
             <span className='rightBarFollowingName'>Ahmed Sobuj</span>
         </div>
         <div className='rightbarFollowing'>
-            <img className='rightbarFollowingImg' src="https://res.cloudinary.com/build-it/image/upload/v1656944567/ecommers/rcltvrsgsar5m3cy5c5g.jpg" alt=''/>
+            <img className='rightbarFollowingImg' src={users[1].profilePicture} alt=''/>
             <span className='rightBarFollowingName'>Ahmed Sobuj</span>
         </div>
         <div className='rightbarFollowing'>
-            <img className='rightbarFollowingImg' src="https://res.cloudinary.com/build-it/image/upload/v1653891827/ecommers/ggqnqcarlcp18tgmbs8z.jpg" alt=''/>
+            <img className='rightbarFollowingImg' src={users[2].profilePicture} alt=''/>
             <span className='rightBarFollowingName'>Ahmed Sobuj</span>
         </div>
         <div className='rightbarFollowing'>
-            <img className='rightbarFollowingImg' src="https://res.cloudinary.com/build-it/image/upload/v1643450078/ecommers/cprldpb9sdes92fovoei.jpg" alt=''/>
+            <img className='rightbarFollowingImg' src={users[3].profilePicture} alt=''/>
             <span className='rightBarFollowingName'>Ahmed Sobuj</span>
         </div>
         <div className='rightbarFollowing'>
-            <img className='rightbarFollowingImg' src="https://res.cloudinary.com/build-it/image/upload/v1643449975/ecommers/tdrrtxtleqspyye46x0s.webp" alt=''/>
+            <img className='rightbarFollowingImg' src={users[4].profilePicture} alt=''/>
             <span className='rightBarFollowingName'>Ahmed Sobuj</span>
         </div>
         <div className='rightbarFollowing'>
-            <img className='rightbarFollowingImg' src="https://res.cloudinary.com/build-it/image/upload/v1656934802/ecommers/tle8mhr7ow9vugfx72ia.webp" alt=''/>
+            <img className='rightbarFollowingImg' src={users[5].profilePicture} alt=''/>
             <span className='rightBarFollowingName'>Ahmed Sobuj</span>
         </div>
 
