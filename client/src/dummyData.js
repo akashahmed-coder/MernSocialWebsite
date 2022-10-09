@@ -143,7 +143,7 @@ export const users = [
    {
       id:7,
       profilePicture:post7,
-      username:'Ariyan Ahmed Rasel'
+      username:'Aryan Rasel'
    }
   
   ]
