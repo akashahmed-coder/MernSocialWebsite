@@ -48,30 +48,16 @@ const ProfileRightBar = () => {
        </div>
        <h4 className='rightbarTitle'>User Friends</h4>
        <div className='rightbarFollowings'>
-        <div className='rightbarFollowing'>
-            <img className='rightbarFollowingImg' src={users[0].profilePicture} alt=''/>
-            <span className='rightBarFollowingName'>Ahmed Sobuj</span>
-        </div>
-        <div className='rightbarFollowing'>
-            <img className='rightbarFollowingImg' src={users[1].profilePicture} alt=''/>
-            <span className='rightBarFollowingName'>Ahmed Sobuj</span>
-        </div>
-        <div className='rightbarFollowing'>
-            <img className='rightbarFollowingImg' src={users[2].profilePicture} alt=''/>
-            <span className='rightBarFollowingName'>Ahmed Sobuj</span>
-        </div>
-        <div className='rightbarFollowing'>
-            <img className='rightbarFollowingImg' src={users[3].profilePicture} alt=''/>
-            <span className='rightBarFollowingName'>Ahmed Sobuj</span>
-        </div>
-        <div className='rightbarFollowing'>
-            <img className='rightbarFollowingImg' src={users[4].profilePicture} alt=''/>
-            <span className='rightBarFollowingName'>Ahmed Sobuj</span>
-        </div>
-        <div className='rightbarFollowing'>
-            <img className='rightbarFollowingImg' src={users[5].profilePicture} alt=''/>
-            <span className='rightBarFollowingName'>Ahmed Sobuj</span>
-        </div>
+          {
+            users.map(user=>{
+              return(
+              <div className='rightbarFollowing'>
+                <img className='rightbarFollowingImg' src={user.profilePicture} alt=''/>
+                <span className='rightBarFollowingName'>{user.username}</span>
+            </div>
+              )
+            })
+          }
 
        </div>
 

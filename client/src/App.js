@@ -1,3 +1,4 @@
+import './app.css'
 import Home from "./components/pages/home/Home";
 import Profile from "./components/pages/profile/Profile";
 import Login from "./components/pages/login/Login";

@@ -55,13 +55,15 @@
 .rightbarFollowings{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    
     
 }
 .rightbarFollowing{
     display: flex;
     flex-direction: column;
+    align-content: center;
     margin-bottom: 20px;
+    margin-right: 10px;
     
 }
 .rightbarFollowingImg{
@@ -73,4 +75,5 @@
 }
 .rightBarFollowingName{
     margin-top: 5px;
+    width: 100px;
 }
